@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    width: 70%;
+}
+
+.corpo {
+    height: 420px;
+    width: 450px;
+    margin: 100px auto;
+    background-color: #aaa7a7;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.painelResultado {
+    margin: 20px;
+    background-color: #918f8f;
+    padding: 20px;
+    height: 50px;
+}
+
+.painelResultado p {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    text-align: right;
+    color: #333;
+}
+
+.linha {
+    margin: 5px;
+}
+
+.ultima-linha {
+    padding-left: 11%;
+    text-align: left;
+}
+
+.conjunto-botoes {
+    text-align: center;
+}
+
+.conjunto-botoes button{
+    background-color: #e5cccc;
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    border: 1px solid transparent;
+    transition: background-color 0.2s linear;
+    color: #504e4e;
+}
+
+.conjunto-botoes button:hover{
+    background-color: #9f9a9a;
+}
+
+.formatar-botao-adicao{
+    height: 100px;
+}
